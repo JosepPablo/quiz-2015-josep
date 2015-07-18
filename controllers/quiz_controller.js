@@ -15,3 +15,8 @@ exports.answer = function(req,res){
         res.render('quizes/answer', {respuesta: 'Incorrecto'});
     };
 };
+
+// GET / quizes/author
+exports.author = function(req,res){
+    res.render('quizes/author',{author: 'Josep Pablo'});
+};
